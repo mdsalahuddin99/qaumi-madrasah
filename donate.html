@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>জামিয়া পরিচিতি</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet">
+  
+</head>
+<body class="px-[20px] pt-[10px]">
+
+  <!-- ad banner  -- -->
+   <section>
+      <img class="w-[500px]   md:w-[] ms-auto me-auto sm:w-full md:w-full   lg:w-full  " src="public/images/hero ad.svg" alt="">
+   </section>
+<!-- header start -->
+<header>
+  <!-- nav start -->
+<nav class="bg-cardbg border-gray-200 py-2.5  dark:bg-gray-900 sticky top-0 left-0 w-full z-50 ">
+  
+  <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+    
+    <!-- Logo -->
+<a href="http://localhost:5174" class="flex items-center">
+      <img src="public/images/madrasah log.svg" class="w-[70px] mr-3 sm:w-[100px]" alt="Logo">
+      
+    </a>
+
+    <!-- Right Side Buttons -->
+    <div class="flex items-center lg:order-2">
+      <a href="#"
+        class="text-white hover font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary">
+      ডোনেট করুন
+      </a>
+
+      <!-- Hamburger -->
+      <button id="menu-btn" type="button"
+        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-primary focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="mobile-menu" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu">
+      <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+        <li class="text-primary hover:text-[#d97706] lg:text-primary"><a href="http://localhost:5174/"
+            class="block py-2 pl-3 pr-4  rounded lg:bg-transparent lg:p-0">মূল পাতা</a>
+        </li>
+        <li class="text-primary hover:text-[#d97706]"><a href="http://localhost:5174/about.html"
+            class="block py-2 pl-3 pr-4  lg:p-0">জামিয়া পরিচিতি</a>
+        </li>
+        <li class="text-primary hover:text-[#d97706]"><a href="http://localhost:5174/division.html"
+            class="block py-2 pl-3 pr-4  lg:p-0">বিভাগসমূহ </a>
+        </li>
+        <li class="text-primary hover:text-[#d97706]"><a href="#http://localhost:5174/images.html"
+            class="block py-2 pl-3 pr-4  lg:p-0">গ্যালারি</a>
+        </li>
+        <li class="text-primary hover:text-[#d97706]"><a href="#contact"
+            class="block py-2 pl-3 pr-4  lg:p-0">যোগাযোগ</a>
+        </li>
+          <li class="text-primary hover:text-[#d97706]"><a href="#contact"
+            class="block py-2 pl-3 pr-4  lg:p-0">ভর্তি</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- JS for toggle -->
+<script>
+  const btn = document.getElementById("menu-btn");
+  const menu = document.getElementById("mobile-menu");
+
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+</script>
+
+<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+<!-- nav end -->
+
+<!-- hero start -->
+ <section id="home" class="  flex-row mt-[10px]   lg:mt-[10px] lg:flex-row justify-between ">
+ <!-- hero right start --> 
+ 
+
+
+<section class="w-[90%] my-5 mx-auto flex justify-center items-center lg:w-full lg:m-8 ">
+  <div id="default-carousel" class="relative w-[90%] mt-5 ms-auto me-auto " data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="public/images/image1.jpg" class="absolute block w-full h-full object-cover" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="public/images/image2.jpg" class="absolute block w-full h-full object-cover" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="public/images/image3.jpg" class="absolute block w-full h-full object-cover" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="public/images/image4.jpg" class="absolute block w-full h-full object-cover" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="public/images/image5.jpg" class="absolute block w-full  h-full object-cover" alt="...">
+        </div>
+         <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="public/images/image6.jpg" class="absolute block w-full  h-full object-cover" alt="...">
+        </div> <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="public/images/image7.jpg" class="absolute block w-full  h-full object-cover" alt="...">
+        </div> <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="public/images/image8.jpg" class="absolute block w-full  h-full object-cover" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+</section>
+ <!-- hero right end -->
+
+  
+<!-- আপনার অনুদান  -->
+
+<section id="services" class="w-[90%] mt-5 ms-auto me-auto" >
+  </div>
+  
+       <div class="bg-primary rounded-2xl p-10 flex flex-col items-center justify-center">
+      <img src="public/images/card6.svg" alt="" class="my-5">
+      <h3 class=" mb-3 text-white font-bold text-[27px]">আপনার অনুদান প্রয়োজন</h3>
+      <p class="text-justify  text-white">আপনার অনুদানই জামিয়ার শিক্ষার্থীদের ভবিষ্যৎ গড়ে তোলে। আল্লাহর রাস্তায় দান করুন।</p>
+
+      <div class="flex gap-5 justify-center items-center sm:flex sm:justify-center mt-5 sm:items-center lg:justify-start">
+     <a href="http://localhost:5174/donate.html" class=" text-[15px] sm:text-[20px] lg:text-[20px]   border-[3px] rounded-[10px]  py-2 px-3 bg-[#d97706] " ><p class="text-white">এখনই দান করুন</p> </a>
+  </div>
+    </div>
+
+
+    <!-- হেডার -->
+    <section class="mb-8">
+      <h1 class="text-2xl md:text-3xl font-bold text-center mb-2">🌸 আল্লাহর পথে দান করুন 🌸</h1>
+      <p class="text-center text-gray-600 italic">“তোমরা যা কিছুই ব্যয় করো (আল্লাহর পথে), আল্লাহ তা অবশ্যই জানেন।” <br> <span class="text-sm">— সূরা আল-বাকারা: 273</span></p>
+      <p class="mt-4 text-center">আমাদের মাদ্রাসা আগামী প্রজন্মকে দ্বীনদার ও সৎ মানুষ হিসেবে গড়ে তুলতে কাজ করছে। আপনার ছোট্ট অনুদানও হতে পারে বড় পরিবর্তনের সূচনা।</p>
+    </section>
+
+    <!-- ব্যাংক তথ্য -->
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">🏦 ব্যাংক মারফত দান</h2>
+      <ul class="space-y-2">
+        <li><span class="font-medium">ব্যাংকের নাম:</span> Islami Bank Bangladesh Limited</li>
+        <li><span class="font-medium">শাখা:</span> ঢাকা মেইন ব্রাঞ্চ</li>
+        <li><span class="font-medium">অ্যাকাউন্টের নাম:</span> Noor Madina Madrasa</li>
+        <li><span class="font-medium">অ্যাকাউন্ট নম্বর:</span> 1234 5678 910</li>
+      </ul>
+    </section>
+
+    <!-- মোবাইল ব্যাংকিং -->
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">📱 মোবাইল ব্যাংকিং মারফত দান</h2>
+      <ul class="space-y-2">
+        <li><span class="font-medium">বিকাশ (পার্সোনাল):</span> 01XXXXXXXXX</li>
+        <li><span class="font-medium">নগদ (পার্সোনাল):</span> 01XXXXXXXXX</li>
+        <li><span class="font-medium">বিকাশ (এজেন্ট):</span> 01XXXXXXXXX</li>
+        <li><span class="font-medium">নগদ (এজেন্ট):</span> 01XXXXXXXXX</li>
+      </ul>
+    </section>
+
+    <!-- দানের গুরুত্ব -->
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">🌺 আপনার দানের গুরুত্ব</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li>ছাত্র-ছাত্রীদের খাদ্য, আবাসন ও শিক্ষাসামগ্রীতে ব্যয় করা হবে।</li>
+        <li>এতিম ও দরিদ্র শিক্ষার্থীদের জন্য বিশেষ বৃত্তি ও সহায়তা।</li>
+        <li>ইসলামী জ্ঞান প্রচার ও নৈতিকতা বিকাশে কর্মসূচি।</li>
+      </ul>
+    </section>
+
+    <!-- যোগাযোগ -->
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">ℹ নিশ্চিতকরণ ও যোগাযোগ</h2>
+      <p class="mb-3">দান সম্পন্ন হলে <strong>ট্রান্সেকশন আইডি/রশিদের ছবি</strong> আমাদের ইমেইল বা হোয়াটসঅ্যাপে পাঠালে রসিদ ইস্যু করা সহজ হবে।</p>
+      <ul class="space-y-2">
+        <li><span class="font-medium">ইমেইল:</span> donation@yourmadrasah.org</li>
+        <li><span class="font-medium">হোয়াটসঅ্যাপ:</span> +8801XXXXXXXXX</li>
+      </ul>
+    </section>
+
+    <!-- ফুটার -->
+    <p class="text-center text-gray-600">আল্লাহ তাআলা আমাদের সকলের দান কবুল করুন — আমীন।</p>
+
+
+
+  </section>
+
+  
+
+
+<!-- Contact start -->
+ <section id="contact" class="w-[70%] mt-5 ms-auto me-auto">
+  <h3 class="text-center text-[35px] font-bold mb-5 lg:mt-10 text-white  bg-primary rounded-[5px]  py-3">আপনার জিজ্ঞাসা</h3>
+  <p class=" mb-10 text-center font-bold" >আমাদের সাথে যোগাযোগের জন্য</p>
+  <form class="lg:grid lg:grid-cols-2 lg:gap-5" action="">
+    <input class="bg-cardbg w-full lg:w-full px-5 py-3  lg:px-4 lg:py-2  rounded-[10px] mb-5"  id="name" type="text" placeholder="আপনার নাম লিখুন">
+    <input class="bg-cardbg w-full lg:w-full px-5 py-3  lg:px-4 lg:py-2 rounded-[10px] mb-5"  id="email" type="email" placeholder="ইমেল লিখুন">
+    <input class="bg-cardbg w-full lg:w-full px-5 py-3  lg:px-4 lg:py-2 rounded-[10px] mb-5"  id="Phone-number" type="text" placeholder="ফোন নাম্বার">
+    <select class="bg-cardbg w-full lg:w-full px-5 py-3 lg:px-4 lg:py-2   rounded-[10px] mb-5" name="" id="">
+      <option value="">সিলেক্ট করুন</option>
+      <option value="">ভর্তি  সমপর্কে</option>
+      <option value="">মাসআলা</option>
+      <option value="">ফতুয়া</option>
+    </select>
+    
+  
+    <textarea class="bg-cardbg w-full  lg:w-full px-5 py-3 rounded-[10px] mb-5" name="project-de-tails" id="project-de-tails">"এখানে বিস্তারিত লিখুন ...........</textarea>
+
+    <div class="flex justify-center items-center">
+      <button class="  " type="submit"><span class="block py-2 px-3 mb-4 bg-primary text-white rounded-[5px]">পাঠান</span></button>
+    </div>
+  </form>
+
+ </section>
+
+ 
+
+<footer class="bg-primary dark:bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0 sm:w-6/12">
+              <a href="" class="flex items-center">
+                  <div class=" bg-white me-2 rounded-[50%]"><img src="public/images/madrasah log.svg" class=" w-20  me-[1px]" alt="FlowBite Logo" /></div>
+                  <div><span class="block self-center text-[20px] font-semibold text-white dark:text-white">জামিয়া মাদানিয়া ইসলামিয়া</span>
+                  <span class="block self-center text-[15px] font-semibold text-white dark:text-white">ঢাকা বাংলাদেশ</span></div>
+              </a>
+              <p class="w-[90%] mt-5 ms-auto me-auto text-white">এটি বাংলাদেশের একটি সুপরিচিত কওমি মাদ্রাসার নাম, যেখানে ইসলামী শিক্ষা, হিফজুল কুরআন, দাওরায়ে হাদিসসহ বিভিন্ন স্তরের পাঠ্যক্রম চালু রয়েছে।</p>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 w-[90%] sm:w-6/12 ms-auto me-auto ">
+              <div class="">
+                  <h2 class="mb-3  font-bold text-[#d97706] text-[20px] dark:text-white">গুরুত্বপূর্ণ লিঙ্ক</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-semibold">
+                       <li class="text-white hover:text-[#d97706] lg:text-primary"><a href="#home">মূল পাতা</a></li>
+        <li class="text-white hover:text-[#d97706]"><a href="#services">বিভাগসমূহ</a></li>
+        <li class="text-white hover:text-[#d97706]"><a href="#about">পরিচালক</a></li>
+        <li class="text-white hover:text-[#d97706]"><a href="#portfolio">গ্যালারি</a></li>
+        <li class="text-white hover:text-[#d97706]"><a href="#contact">যোগাযোগ</a></li>
+        <li class="text-white hover:text-[#d97706]"><a href="#contact"></a>ভর্তি</a></li>
+                  </ul>
+              </div>
+                  <div class="sm:w-6/12">
+                  <h2 class="mb-3  font-bold text-[#d97706] text-[20px] dark:text-white">যুক্ত হোন</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-semibold">
+               <li class="text-white hover:text-[#d97706]"><a href="#contact"></a>ফেইসবুক</a></li>        
+              <li class="text-white hover:text-[#d97706]"><a href="#contact">ইউটুব</a></li>
+            <li class="text-white hover:text-[#d97706]"><a href="#services">টুইটার</a></li>
+           <li class="text-white hover:text-[#d97706]"><a href="#about">ইনস্ট্রাগ্রাম</a></li>
+           <li class="text-white hover:text-[#d97706]"><a href="#portfolio">হোয়াটসপ</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+
+
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">জামিয়া মাদানিয়া ইসলামিয়া</a>. All Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+          <p class="text-[10px] sm:text-[15px] text-[#d97706]">Designed by @Md Salah Uddin Web Developer</p>
+          </div>
+      </div>
+    </div>
+</footer>
+
+
+<!-- footer end -->
+
+  
+  <!-- Scroll To Top Button -->
+<button id="toTopBtn" 
+  class="hidden fixed bottom-5 right-5 bg-primary text-white p-3 rounded-full shadow-lg hover:bg-orange-600 transition">
+  ⬆
+</button>
+
+<script>
+  const toTopBtn = document.getElementById("toTopBtn");
+
+  // স্ক্রল ডাউন করলে বাটন show হবে
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      toTopBtn.classList.remove("hidden");
+    } else {
+      toTopBtn.classList.add("hidden");
+    }
+  });
+
+  // ক্লিক করলে উপরে নিয়ে যাবে
+  toTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  <script type="module" src="src/main.js"></script>
+  
+</body>
+</html>
